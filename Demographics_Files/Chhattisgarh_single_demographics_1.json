@@ -1,0 +1,98 @@
+{
+    "Metadata": {
+        "DateCreated": "Sun Sep 25 23:19:55 2011", 
+        "Tool": "convertdemog.py", 
+        "Author": "IDM",
+        "IdReference": "Gridded world grump2.5arcmin", 
+        "Resolution": 150,
+        "NodeCount": 1
+    }, 
+    "Nodes": [
+        {
+            "NodeID": 340461476, 
+            "NodeAttributes": {
+                "Latitude": 21.2787, 
+                "Longitude": 81.8661, 
+                "Altitude": 0, 
+                "Airport": 0, 
+                "Region": 1, 
+                "Seaport": 0, 
+                "InitialPopulation": 1000, 
+                "BirthRate": 0.0001263
+            }, 
+            "IndividualAttributes": {
+                "AgeDistribution":{
+                    "ResultUnits": "years",
+                    "ResultScaleFactor": 365,
+                    "ResultValues": [0.0995,0.2075,0.3204,0.4222,0.5157,0.5962,0.6673,0.737,0.7987,0.8509,0.8898,0.9207,0.9498,0.9707,0.9853,0.9918,0.9959,0.9973,0.9983,0.9988,1],
+                    "DistributionValues": [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,200]
+                }, 
+                "PrevalenceDistributionFlag": 1, 
+                "PrevalenceDistribution1": 0.1, 
+                "PrevalenceDistribution2": 0.3, 
+                "ImmunityDistributionFlag": 0, 
+                "ImmunityDistribution1": 1, 
+                "ImmunityDistribution2": 0, 
+                "RiskDistributionFlag": 0, 
+                "RiskDistribution1": 1, 
+                "RiskDistribution2": 0, 
+                "MigrationHeterogeneityDistributionFlag": 0, 
+                "MigrationHeterogeneityDistribution1": 1, 
+                "MigrationHeterogeneityDistribution2": 0,
+                "MortalityDistribution": {
+                    "NumDistributionAxes": 2,
+                    "AxisNames": [ "gender", "age" ],
+                    "AxisUnits": [ "male=0,female=1", "years" ],
+                    "AxisScaleFactors": [ 1, 365 ],
+                    "NumPopulationGroups": [ 2, 18 ],
+                    "PopulationGroups": [
+                        [ 0, 1 ],
+                        [ 4,9,14,19,24,29,34,39,44,49,54,59,64,69,74,79,84,200 ]
+                    ],
+
+                    "ResultUnits": "annual deaths per 1000 individuals",
+                    "ResultScaleFactor": 0.00000273972602739726027397260273973,
+                    "ResultValues": [
+                        [9.5,
+                        9.6,
+                        9.8,
+                        10.7,
+                        14.3,
+                        17.5,
+                        19.8,
+                        23.8,
+                        30.7,
+                        40,
+                        50.8,
+                        70.9,
+                        104.3,
+                        153.3,
+                        251.4,
+                        367,
+                        616.4,
+                        1097.9],
+                        [11.2,
+                        11.7,
+                        13,
+                        13.6,
+                        15.3,
+                        16.8,
+                        19.3,
+                        22.1,
+                        24.8,
+                        29.9,
+                        44.1,
+                        64.7,
+                        84.5,
+                        119.1,
+                        175.2,
+                        275.7,
+                        426,
+                        637.8
+                    ]
+                ]
+                }
+            }
+        }
+    ]
+}
